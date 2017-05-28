@@ -29,10 +29,10 @@ defmodule Lob.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:httpoison, "~> 0.9.0"},
-      {:poison, "~> 2.0"},
-      {:dialyxir, "~> 0.4", only: [:dev]},
-      {:coverex, "~> 1.4.10", only: :test}
+      {:httpoison, "~> 0.10.0"},
+      {:poison,    "~> 3.0"},
+      {:dialyxir,  "~> 0.4",    only: [:dev]},
+      {:coverex,   "~> 1.4.10", only: :test}
     ]
   end
 end
